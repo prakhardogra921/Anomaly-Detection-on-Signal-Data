@@ -1,0 +1,6 @@
+# Anomaly-Detection-on-Signal-Data
+Implement the StrOUD algorithm, using LOF and KNN as the strangeness function to find anomalous data in the signal dataset.
+
+The data you will find at https://cs.gmu.edu/~dbarbara/CS584/base.zip consists of electromagnetic signals captured by a sensor attached to a control unit for a centrifuge. The centrifuge has four normal modes of operation (A,B,C, and D), captured respectively in folders ModeA, ModeB, ModeC, and ModeD of the base data below. Each data file is composed by a sampled signal (20,000 samples, each a floating point number). In one of the experiments, the controller has been infected with the Stuxnet virus. The data corresponding to that mode (maliciously infected or M) is captured in the folder ModeM of the base data below. Also below, some test data that mixes normal (Modes A,B, C, and D) signals with malicious data (Mode M) is provided. Obviously the test data is not labeled, with the truth hidden from you and available to the submission website only for purposes of evaluation.
+If you want to read more about the way this data is collected, go to the weblink: https://cs.gmu.edu/~dbarbara/CS584/PFP.pdf
+Test data can also be downloaded at https://cs.gmu.edu/~dbarbara/CS584/Test.zip
